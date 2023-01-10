@@ -3,6 +3,9 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -12,3 +15,24 @@
     --nav-height : 72px;
 }
 
+.navBar {
+    background-color: var(--bg-color);
+    height: var(--nav-height);
+    display: flex;
+    color: var(--color-text);
+}
+
+.logo {
+    font-size: 1.6rem;
+}
+
+.navBar ul {
+    background-color: red;
+    list-style: none;
+    display: flex;
+}
+
+.navBar li {
+
+    
+}
