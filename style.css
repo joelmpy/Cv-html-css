@@ -106,3 +106,13 @@
     color: #ea1538;
     font-weight: bold;
 }
+
+#Profil {
+    padding: var(--space-bordure);
+    height: 40vh;
+        background-color: var(--bg-color);
+}
+
+.presentation {
+    width: 800px;
+}
