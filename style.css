@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
+/* Mise en place  */
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -14,6 +19,21 @@
     --space-bordure: 40px;
     --nav-height: 72px;
 }
+
+
+h2 {
+    font-size: 2.3rem;
+    color: var(--color-text);
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+/* main */
+
 
 .hero {
     height: 70vh;
@@ -95,11 +115,7 @@
     margin-right: 5rem;
     text-align: center;
 }
-.title_cv h2 {
-    font-size: 2.5rem;
-    color: var(--color-text);
-    font-weight: bold;
-}
+
 
 .title_cv p {
     font-size: 1.7rem;
@@ -107,12 +123,21 @@
     font-weight: bold;
 }
 
+/* Profil */
+
 #Profil {
     padding: var(--space-bordure);
     height: 40vh;
-        background-color: var(--bg-color);
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 
 .presentation {
-    width: 800px;
+   width: 600px;
+}
+
+.presentation {
+
 }
