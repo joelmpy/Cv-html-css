@@ -131,13 +131,82 @@ h3 {
     background-color: var(--bg-color);
     display: flex;
     justify-content: center;
-    padding: 40px;
 }
 
 .presentation {
    width: 600px;
 }
 
-.presentation {
+.presentation h3 {
+    margin-bottom: 15px;
+    color: var(--color-text);
+}
 
+#Expériences {
+    height: 50vh;
+    padding: var(--space-bordure);
+    display: flex;
+    justify-content: center;
+}
+
+.experience-content {
+    width: 600px;
+}
+
+.experience-title {
+    margin-bottom: 15px;
+}
+
+.expand-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expand-date div {
+    margin-bottom: 15px;
+}
+
+#Formations {
+    height: 50vh;
+    width: 100%;
+    padding: var(--space-bordure);
+    background-color: var(--bg-color);
+}
+
+.formation-title {
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--color-text);
+}
+
+.formation-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formation-card {
+    margin-top: 20px;
+    background: #fff;
+    width: 250px;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+    border-radius: 10px;
+}
+
+
+.formation-card .fa-medal {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.formation-text span{
+    color: blue;
 }
