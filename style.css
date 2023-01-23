@@ -4,7 +4,7 @@
 /* Mise en place  */
 html {
     scroll-behavior: smooth;
-  }
+}
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -109,8 +109,9 @@ h3 {
 .info-content img {
     height: 200px;
     width: 200px;
-    border-radius:999px;
+    border-radius: 999px;
 }
+
 .title_cv {
     margin-right: 5rem;
     text-align: center;
@@ -134,7 +135,7 @@ h3 {
 }
 
 .presentation {
-   width: 600px;
+    width: 600px;
 }
 
 .presentation h3 {
@@ -174,6 +175,7 @@ h3 {
     padding: var(--space-bordure);
     background-color: var(--bg-color);
 }
+
 .formation-content {
     width: 1200px;
     margin: 0 auto;
@@ -181,7 +183,7 @@ h3 {
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    padding: 50px 0 100px;  
+    padding: 50px 0 100px;
 }
 
 
@@ -203,6 +205,12 @@ h3 {
     flex-direction: column;
     box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
     border-radius: 10px;
+    transition: 0.4s;
+}
+
+.formation-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -219,7 +227,7 @@ h3 {
     font-size: 16px;
 }
 
-.formation-text span{
+.formation-text span {
     color: blue;
     font-size: 15px;
 }
@@ -230,10 +238,12 @@ h3 {
     #Formations {
         height: 70vh;
     }
+
     .formation-content {
         width: 700px;
         flex-wrap: wrap;
     }
+
     .formation-card {
         width: 250px;
     }
@@ -244,14 +254,90 @@ h3 {
     #Formations {
         height: auto;
     }
+
     .formation-content {
         width: 320px;
     }
+
     .formation-card {
         width: 300px;
         margin: 20px 20px;
     }
 }
+
+.hobbies-main {
+    width: 100%;
+    flex-shrink: 0;
+    background: #f1f1f1;
+    color: #333;
+    padding: var(--space-bordure);
+}
+
+.hobbies-main h3 {
+    text-align: center;
+}
+
+/* .bloc-hobiies {
+    width: 25%;
+    margin: 0 30px;
+} */
+
+.hobbies-content {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 100px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.hobbies-contenu h4 {
+    text-align: center;
+}
+
+.hobbies-contenu img {
+    width: 250px;
+    margin: 15px 15px;
+} 
+
+@media screen and (max-width : 1300px) {
+
+    .hobbies-content {
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .hobbies-contenu img {
+        margin: 10px 10px;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .hobbies-content {
+        width: 320px;
+    }
+
+    .hobbies-contenu img {
+        width: 300px;
+        margin: 20px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     flex-shrink: 0;
@@ -290,18 +376,18 @@ footer {
 .liste-media,
 .liste-services {
     list-style: none;
-} 
+}
 
 .liste-services li {
     padding: 2px 0;
 }
 
-.liste-services a{
+.liste-services a {
     text-decoration: none;
 }
 
 .liste-services a:hover {
-    color: rgba(3,3,3);
+    color: rgba(3, 3, 3);
 }
 
 .liste-media {
@@ -309,7 +395,7 @@ footer {
     right: 10px;
 }
 
-.liste-media i{
+.liste-media i {
     width: 40px;
     margin: 10px 10px;
 }
@@ -322,11 +408,12 @@ footer {
     font-size: 25px;
 }
 
-@media screen and (max-width : 1300px){
+@media screen and (max-width : 1300px) {
     .contenu-footer {
         width: 700px;
         flex-wrap: wrap;
     }
+
     .bloc {
         width: 40%;
         margin: 0 0;
@@ -338,10 +425,11 @@ footer {
     }
 }
 
-@media screen and (max-width : 800px){
+@media screen and (max-width : 800px) {
     .contenu-footer {
         width: 320px;
     }
+
     .bloc {
         width: 300px;
         margin: 30px 30px;
